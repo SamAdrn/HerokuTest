@@ -1,0 +1,22 @@
+{
+  "name": "herokutest",
+  "version": "1.0.0",
+  "description": "A simple NodeJS app deployed using Heroku and GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SamAdrn/HerokuTest.git"
+  },
+  "author": "Samuel Kosasih",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamAdrn/HerokuTest/issues"
+  },
+  "homepage": "https://github.com/SamAdrn/HerokuTest#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
